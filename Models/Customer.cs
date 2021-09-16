@@ -32,6 +32,6 @@ namespace Models
 
         public string City { get; set; }
 
-        public List<Order> Orders { get; set; }
+        public List<Order> Orders { get; set; } //customers owns this order class
     }
 }
